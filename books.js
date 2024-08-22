@@ -32,3 +32,7 @@ function storeSubmit() {
   
   // Register the event listener.
 SubButton.addEventListener("click", storeSubmit);
+
+//use sibling to change book name
+let ele = document.getElementById("m1").nextSibling;
+      document.getElementById('result').innerHTML = 'The next sibling for the id "m1" is : '+ele.innerHTML;
