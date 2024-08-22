@@ -1,10 +1,16 @@
 //Remove Radio Button using replace
 const changeRadio =document.querySelectorAll('input[type="radio"]');
-console.log(changeRadio);
-const checkBox=document.createElement('input');
-checkBox.type = 'checkbox';
-console.log(checkBox);
-// changeRadio.parentNode.replaceChild(checkBox, changeRadio);
+console.log(changeRadio)
+// const checkBox=document.createElement("input")
+// checkBox.type = 'checkbox';
+// console.log(checkBox);
+// changeRadio?.replaceWith?.(checkBox);
+changeRadio.forEach((radiobutton)=>{
+  const checkBox=document.createElement("input")
+  const changeRadio =document.querySelector('input[type="radio"]');
+  checkBox.type = 'checkbox';
+  changeRadio?.replaceWith?.(checkBox);
+})
 
 
 
