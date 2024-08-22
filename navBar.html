@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./navBar.css">
+    <style> h1 {color:blue} p {font-size: 10px;} </style>
+    <script src="./navBar.js" defer></script>
+    <title>navigationBar</title>
+</head>
+
+<body>
+
+    <ul>
+<li>
+    <a class='active' href="./resume.html">Resume</a>
+</li>
+<li>
+    <a href="./books.html">Books</a>
+</li>
+<li>
+    <a href="./movies.html">Movies</a>
+</li>
+<li style="float:right">
+    <a id="about" href="#about">About</a>
+</li>
+
+    </ul>
+
+<h1>About:Summary of Homework 307 </h1>
+
+    <p>
+        <hr>
+        Github link:  
+        <a href="https://github.com/WENDYWEN20/SBA307.git">https://github.com/WENDYWEN20/SBA307-HTML-CSS</a>
+
+        <div id="skills">Skills Learned at Per Scholas</div>
+
+        <hr>
+        <div id="LinkedIn"></div>
+
+        <style>
+            .container{
+                border:2px solid black;
+                height: 80vh;
+                width:1000px;
+                display: flex;
+                flex-flow: row wrap;
+                align-items:center; 
+                justify-content:space-evenly;
+                align-content:space-around; 
+    
+            }
+            .boxes{
+                border: .1px solid;
+                width: 220px;
+                height: 220px;
+                text-align: center;
+                font-size: 20px;
+    
+            }
+  
+        </style>
+
+    
+
+    
+    <div class="container">
+        <!--     flex items-->
+        <div class="boxes" id="box1">This is Wendy Wen's homework SBA 307, where 4 pages were included. About page is a summary of Homework. Internal and external style used; Flex box added, 2 CSS animations</div>
+        <div class="boxes" id="box2">Resume page supercase used as inline HTML style</div>
+        <div class="boxes" id="box3">Books page has internal style tab for HTML styling, also includes tables, gif and images, two forms, checkbox and radio selection added </div>
+        <div class="boxes" id="box4">Movies page includes a dropdown selection, YouTube link, Goback links added in all 3 pages</div>
+
+       </div>
+    
+
+    </p>
+
+
+    
+</body>
+</html>

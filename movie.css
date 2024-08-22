@@ -1,0 +1,13 @@
+body{background-color: rgb(242, 241, 242);}
+h1{font-size:65px;color:rgb(49, 207, 24);margin-left: 200px;}
+h2{font-size:45px;padding-left:100px;}
+.sec2{font-size:35px; color:brown;}
+#filmlist{font-size:30px; color:hsl(159, 90%, 36%);}
+ul{font-size:15px; color:chocolate;}
+ul :first-child{font-size:20px;}
+ul :first-child :hover{color:blue;}
+ol :nth-child(3){color: black;}
+ol{font-size:15px; color:rgb(165, 226, 43);}
+#header{font-size:50px;color:grey;}
+.class1{font-size:50px;color:grey;}
+div{height:300px;width:500px;border:red solid 5px;}

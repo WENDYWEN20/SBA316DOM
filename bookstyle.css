@@ -1,0 +1,30 @@
+section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    background-color:greenyellow
+    }
+
+table{text-align:left; border: solid green;}
+th{text-align: center;}
+td,th{border: 1px solid red; }
+    
+body{
+    text-align: center;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+    
+.caption{font-size: 25px; margin:20px;}
+#gif{
+    max-height: 250px;
+    margin-top: 20px;
+}
+#headfirst{
+    max-height: 250px;
+    margin-top: 20px;
+}
+fieldset{font-family:'Arial Narrow', sans-serif; text-align:left; font-size: 12px;}
